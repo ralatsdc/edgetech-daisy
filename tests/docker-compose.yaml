@@ -13,22 +13,22 @@ services:
     restart: on-failure
     depends_on:
       - mqtt
-      - daisy
     env_file:
       - test-harness.env
   mqtt:
-    image: iqtlabs/edgetech-mqtt:latest
+    image: mechadwick/edgetech-mqtt:latest
     ports:
       - "1883:1883"
       - "9001:9001"
     restart: unless-stopped
   daisy:
     image: iqtlabs/edgetech-daisy:latest
-    devices:
-      - "/dev/ttyharness1:/dev/serial0"
+    command: tail -F anything
+    volumes:
+      - "/dev/pts/7:/dev/serial0"
     build:
-      context: ./daisy
-      dockerfile: ./Dockerfile
+      context: ../daisy
+      dockerfile: ../daisy/Dockerfile
     restart: unless-stopped
     logging:
       driver: "json-file"
@@ -37,5 +37,5 @@ services:
         max-file: "10"
     env_file:
       - daisy.env
-    volumes:
-      - ./test-data/tosort:/data/tosort
+    depends_on:
+      - mqtt
