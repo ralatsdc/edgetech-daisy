@@ -25,7 +25,7 @@ services:
     image: iqtlabs/edgetech-daisy:latest
     command: tail -F anything
     volumes:
-      - "/dev/pts/7:/dev/serial0"
+      - ${DAISY_PORT}:/dev/serial0
     build:
       context: ../daisy
       dockerfile: ../daisy/Dockerfile
