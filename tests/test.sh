@@ -9,8 +9,8 @@ bash setup_virtual_serial_port.sh &
 # Allow ports time to startup
 sleep 5
 # Symlinks do not work in docker-compose files. Write correct port numbers to be used in .env file
-echo "export DAISY_PORT="$(readlink /dev/ttyharness0) > .env
-echo "export HARNESS_PORT="$(readlink /dev/ttyharness1) >> .env
+echo "export DAISY_PORT="$(readlink /tmp/ttyharness0) > .env
+echo "export HARNESS_PORT="$(readlink /tmp/ttyharness1) >> .env
 source .env
 
 echo -e "${PURPLE}Bring up containers${NC}"
