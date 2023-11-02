@@ -9,7 +9,8 @@ services:
   test-harness:
     image: iqtlabs/edgetech-test-harness:latest
     volumes:
-      - ${PWD}/test-data:/test-data
+      - ${HARNESS_PORT}:/dev/serial0
+      - ./test-data:/test-data
     restart: on-failure
     depends_on:
       - mqtt
