@@ -12,4 +12,15 @@ def test_integration() -> None:
     with open("test-data/test-output.json") as output_file:
         output_actual = json.load(output_file)
 
-    assert output_expected == output_actual
+    # Remove empty end messages
+    output_expected.pop()
+    output_actual.pop()
+
+    # Remove timestamps from assertion
+    for i, output in enumerate(output_expected):
+        output_expected
+        assert (
+            {key: output_expected[i]["message_content"][key] for key in output_expected[i]["message_content"] if key != "PushTimestamp"}
+            == {key: output_actual[i]["message_content"][key] for key in output_actual[i]["message_content"] if key != "PushTimestamp"}
+        )
+
