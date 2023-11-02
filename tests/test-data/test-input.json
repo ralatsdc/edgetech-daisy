@@ -1,0 +1,30 @@
+[
+{
+    "topic": "foo",
+    "message_content": {
+        "PushTimestamp": 0,
+        "foo": "foo",
+        "bar": "bar",
+        "baz": "baz"
+    }
+},
+{
+    "topic": "bar",
+    "message_content": {
+        "PushTimestamp": 1,
+        "foo": "foo",
+        "bar": "bar",
+        "baz": "baz"
+    }
+},
+{
+    "topic": "baz",
+    "message_content": {
+        "PushTimestamp": 2,
+        "foo": "foo",
+        "bar": "bar",
+        "baz": "baz"
+    }
+},
+{}
+]
