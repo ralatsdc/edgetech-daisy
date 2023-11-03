@@ -1,0 +1,303 @@
+[
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016070.748648",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,A,B5NuDC00?vWnf4USpouK?wt5oP06,0*58\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016071.751246",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,A,H52jhPlUCBD8>:800000001@:66t,0*4C\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016072.752271",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,B,34hB4`5000JOJaRF?Ww=3J<f0E1r,0*54\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016073.753699",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,B,B5NuDC00?NWnhc5SpL1V3we5oP06,0*3D\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016074.753521",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,2,2,3,A,Qm3k`10p8888880,2*52\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016075.754967",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,A,35O8HMUP00JOJuVF?W8GE?w42E2r,0*64\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016076.754711",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,2,2,6,A,Qm3k`10p8888880,2*57\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016077.755585",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,A,34hB4`5000JOJanF?`0M3J<R0DjJ,0*3D\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016078.75513",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,B,35O8HMUP00JOJufF?W6oE?w82Dsr,0*3D\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016079.756944",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,B,35N3As5000rOK4<F?`bQO1<p0Dub,0*6C\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016080.756576",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,A,B5O>6SP006WnP:USsnGQ3wgQjE9r,0*6B\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016081.757319",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,A,H52isChLiT<E8TpD00000000000,2*3A\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016082.758445",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,A,3819@OUwh1rOJ>PF?f1ML76b0D`r,0*62\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016083.760678",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,2,1,8,A,55NIEwT00001L@kO;;4TppE:0P588u:1=0U8UB0t1@K39v@gN3mhDj2C,0*24\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016084.761135",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,2,2,8,A,Qm3kc10p8888880,2*5A\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016085.761175",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,A,35N8wFUP00JOK=VF?`grCwwh2E0:,0*1D\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016086.76383",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,B,B52jhPh006WnVpUSsFgQ3wT1jDeJ,0*56\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016087.764455",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,B,B52jFnh006Wndp5SrLaeKwV5CP06,0*47\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016088.764423",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,A,35NIEwUP00rOJwPF?W0brgvj2Dub,0*54\r"
+    }
+},
+{
+    "topic": "bytestring",
+    "message_content": {
+        "PushTimestamp": "1699016089.765118",
+        "DeviceType": "Collector",
+        "ID": "daisy-test",
+        "DeploymentID": "AISonobuoy-Arlington-daisy-test",
+        "CurrentLocation": "-90, -180",
+        "Status": "Debug",
+        "MessageType": "Event",
+        "ModelVersion": "null",
+        "FirmwareVersion": "v0.0.0",
+        "Binary AIS": "!AIVDM,1,1,,B,35O8HMUP00JOJu<F?W0GE?w62Dor,0*5B\r"
+    }
+},
+{}
+]

@@ -4,10 +4,10 @@ NC='\033[0m' # No Color
 
 echo -e "${PURPLE}Set up integration tests${NC}"
 sudo docker compose build daisy
-bash setup_virtual_serial_port.sh &
-
-# Allow ports time to startup
+# Start virtual ports
+sudo bash setup_virtual_serial_port.sh &
 sleep 5
+
 # Symlinks do not work in docker-compose files. Write correct port numbers to be used in .env file
 echo "export DAISY_PORT="$(readlink /tmp/ttyharness0) > .env
 echo "export HARNESS_PORT="$(readlink /tmp/ttyharness1) >> .env
@@ -21,5 +21,4 @@ pytest test_integration.py
 
 echo -e "${PURPLE}Tear down integration tests${NC}"
 rm test-data/test-output.json
-sleep 10
-killall socat
+sudo killall socat

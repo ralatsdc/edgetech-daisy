@@ -24,7 +24,6 @@ services:
     restart: unless-stopped
   daisy:
     image: iqtlabs/edgetech-daisy:latest
-    command: tail -F anything
     volumes:
       - ${DAISY_PORT}:/dev/serial0
     build:
